@@ -1,0 +1,21 @@
+# 🔺 Classificador de Triângulos
+
+## 📌 Descrição
+Este programa em **C** recebe três valores numéricos e verifica se eles podem formar um **triângulo**. Caso formem, o programa determina o **tipo do triângulo**:
+
+- **Equilátero** → Todos os lados são iguais.
+- **Isósceles** → Dois lados são iguais.
+- **Escaleno** → Todos os lados são diferentes.
+
+---
+
+## 🚀 Como Funciona?
+1. O usuário insere os valores dos três lados do triângulo.
+2. O programa verifica se os valores atendem à **condição de existência de um triângulo**:
+a < b + c b < a + c c < a + b
+3. Se forem válidos, o programa informa o **tipo do triângulo**.
+4. Caso contrário, exibe uma mensagem dizendo que **os valores não formam um triângulo**.
+
+---
+
+

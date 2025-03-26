@@ -1,0 +1,22 @@
+📖 Descrição
+Este programa em C recebe três números inteiros fornecidos pelo usuário e determina qual é o maior deles. Caso os três números sejam iguais, o programa informa isso ao usuário.
+
+🚀 Como Funciona?
+O usuário insere três números inteiros.
+
+O programa compara esses números e imprime qual é o maior.
+
+Caso todos os números sejam iguais, ele também exibe uma mensagem informando isso.
+
+📋 Exemplo de Saída
+Exemplo 1:
+Digite um Numero: 10
+Digite outro Numero: 20
+Digite mais um Numero: 15
+Maior Valor = 20
+
+Exemplo 2:
+Digite um Numero: 5
+Digite outro Numero: 5
+Digite mais um Numero: 5
+Os três valores são iguais.
