@@ -1,0 +1,66 @@
+Título do Projeto:
+Gerenciador de Fila de Senhas em C
+
+Descrição:
+Este projeto implementa uma estrutura de fila circular para gerenciamento de senhas em C. Ele permite adicionar senhas a uma fila, atender senhas em ordem de chegada e visualizar a fila atual.
+
+O sistema utiliza um array estático com tamanho fixo de 20 posições e segue os princípios de uma fila circular, garantindo eficiência ao utilizar operações de incremento modular.
+
+Funcionalidades:
+✔ Gerar uma nova senha e adicioná-la à fila.
+✔ Atender a próxima senha da fila.
+✔ Exibir todas as senhas na fila.
+✔ Verificar se a fila está cheia ou vazia.
+
+Como Executar:
+Compile o código utilizando o GCC (ou outro compilador compatível):
+
+sh
+Copiar
+Editar
+gcc fila_senhas.c -o fila_senhas
+Execute o programa:
+
+sh
+Copiar
+Editar
+./fila_senhas
+Siga as opções do menu interativo.
+
+Exemplo de Uso:
+yaml
+Copiar
+Editar
+Menu:
+1. Gerar nova senha
+2. Atender senha
+3. Imprimir fila
+0. Sair
+Escolha uma opcao: 1
+Senha 1 adicionada a fila.
+
+Escolha uma opcao: 1
+Senha 2 adicionada a fila.
+
+Escolha uma opcao: 3
+Fila de senhas: 1 2
+Estrutura do Código:
+Fila: Estrutura que representa a fila de senhas.
+
+inicializarFila(): Inicializa a fila antes do uso.
+
+filaCheia() / filaVazia(): Verifica o estado da fila.
+
+inserirSenha(): Adiciona uma nova senha à fila.
+
+atenderSenha(): Atende a próxima senha da fila.
+
+imprimirFila(): Exibe todas as senhas na fila.
+
+main(): Loop de interação com o usuário.
+
+Requisitos:
+Compilador C (GCC, Clang, MinGW, etc.)
+
+Contribuição:
+Sinta-se à vontade para sugerir melhorias ou abrir issues. 🚀

@@ -1,0 +1,17 @@
+# Soma de Números Ímpares em C
+
+## 📌 Descrição
+Este programa recebe dois valores inteiros `A` e `B` e exibe:
+1. **Todos os números ímpares** entre `A` e `B`.
+2. **A soma desses números ímpares**.
+
+Caso `A > B`, o programa exibe uma **mensagem de erro** e encerra.
+
+## 🚀 Como funciona?
+1. O usuário insere dois números inteiros (`A` e `B`).
+2. O programa verifica se `A <= B`:
+   - Se **sim**, exibe os números ímpares no intervalo e calcula a soma.
+   - Se **não**, exibe uma mensagem de erro e encerra.
+   
+## 💻 Exemplo de Saída:
+Digite o valor de A: 5 Digite o valor de B: 15 Os números ímpares entre 5 e 15 são: 5 7 9 11 13 15 A soma dos valores ímpares entre 5 e 15 é: 60

@@ -1,0 +1,34 @@
+# Verificador de Existência de Valor no Vetor
+
+## Descrição
+Este programa em C permite ao usuário inserir 10 números inteiros em um vetor e depois verificar se um número específico está presente no vetor.
+
+## Como funciona?
+1. O usuário digita **10 valores** para preencher um vetor.
+2. Em seguida, insere um **valor a ser pesquisado**.
+3. O programa percorre o vetor e verifica se o valor está presente.
+4. Exibe uma mensagem indicando se o número foi encontrado.
+
+## Exemplo de Entrada e Saída
+Digite os valores do vetor: 5 12 9 3 8 7 15 4 20 1 Digite o valor a procurar: 9 O valor 9 existe no vetor!
+
+Digite o valor a procurar: 25 O valor 25 NAO existe no vetor!
+
+shell
+Copiar
+Editar
+
+## Como Compilar e Executar
+### Compilar:
+```sh
+gcc verificar_valor_vetor.c -o verificar_valor_vetor
+Executar:
+sh
+Copiar
+Editar
+./verificar_valor_vetor
+Possíveis Melhorias
+✅ Permitir que o usuário escolha o tamanho do vetor em vez de fixar em 10 elementos.
+✅ Ordenar o vetor e usar busca binária para otimizar a pesquisa.
+✅ Permitir a pesquisa de múltiplos valores de uma vez.
+

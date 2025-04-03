@@ -1,0 +1,52 @@
+Título:
+Verificação de Dígitos Finais em C
+Descrição:
+Este programa em C verifica se os últimos dígitos de um número a correspondem exatamente a todos os dígitos de um número b.
+
+Por exemplo:
+✅ Se a = 12345 e b = 45, a saída será positiva.
+❌ Se a = 12345 e b = 56, a saída será negativa.
+
+Funcionalidade:
+O usuário insere dois números inteiros (a e b).
+
+O programa verifica se os últimos dígitos de a são iguais a b.
+
+Exibe uma mensagem informando se há correspondência ou não.
+
+Exemplo de Entrada e Saída:
+less
+Copiar
+Editar
+Digite o valor de a: 12345
+Digite o valor de b: 45
+Os ultimos digitos de a sao iguais aos digitos de b.
+
+Digite o valor de a: 98765
+Digite o valor de b: 78
+Os Ultimos digitos de a nao correspondem aos digitos de b.
+Como Executar:
+Compilação:
+Se estiver usando GCC, compile o código com:
+
+sh
+Copiar
+Editar
+gcc verificar_digitos.c -o verificar_digitos
+Execução:
+sh
+Copiar
+Editar
+./verificar_digitos
+Explicação do Código:
+O programa lê os números a e b.
+
+Usa um loop while para comparar os últimos dígitos de a e b, removendo os dígitos à direita até b ser completamente analisado.
+
+Se b for totalmente percorrido (temp_b == 0), significa que ele está nos últimos dígitos de a, e o programa exibe uma mensagem afirmativa.
+
+Melhorias Possíveis:
+✅ Substituir main() por int main() e adicionar return 0;.
+✅ Melhorar mensagens para maior clareza.
+✅ Adaptar para aceitar números negativos.
+

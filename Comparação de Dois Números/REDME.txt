@@ -1,0 +1,19 @@
+# 🔢 Comparação de Dois Números
+
+## 📌 Descrição
+Este programa em **C** recebe dois números do usuário e exibe qual é o maior. Se os valores forem iguais, ele informa essa condição.
+
+## 🚀 Como funciona?
+1. O usuário insere **dois números inteiros**.
+2. O programa compara os valores:
+   - Se forem **iguais**, exibe `"Valores iguais"`.
+   - Se forem **diferentes**, exibe o **maior valor**.
+3. O resultado é mostrado no console.
+
+## 💻 Exemplo de Saída:
+### **Caso 1 - Números diferentes**
+Digite um número: 7 Digite outro número: 10 Maior valor = 10
+
+---
+### **Caso 2 - Números iguais**
+Digite um número: 5 Digite outro número: 5 Valores iguais

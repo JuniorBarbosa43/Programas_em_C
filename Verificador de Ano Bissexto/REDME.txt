@@ -1,0 +1,22 @@
+# 📅 Verificador de Ano Bissexto
+
+## 📌 Descrição
+Este programa em **C** recebe um ano como entrada e verifica se ele é **bissexto**.
+
+### 🔢 Regras para um ano ser bissexto:
+- O ano é **bissexto** se for divisível por **400**.
+- O ano também pode ser **bissexto** se for divisível por **4**, mas **não por 100**.
+
+📌 **Exemplos de anos bissextos:**  
+✅ 2000 (pois é divisível por 400)  
+✅ 2024 (pois é divisível por 4, mas não por 100)  
+❌ 1900 (pois é divisível por 100, mas não por 400)  
+
+---
+
+## 🚀 Como Usar?
+1. O usuário insere um **ano**.
+2. O programa verifica se ele atende às **regras do ano bissexto**.
+3. Exibe se o ano é **bissexto ou não**.
+
+---

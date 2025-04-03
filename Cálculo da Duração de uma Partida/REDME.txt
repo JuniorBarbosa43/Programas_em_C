@@ -1,0 +1,17 @@
+# 🕒 Cálculo da Duração de uma Partida
+
+## 📌 Descrição
+Este programa em C calcula a **duração de uma partida** baseada no **horário de início** (`hi`) e **horário de término** (`hf`), considerando o formato **24 horas**.
+
+Se a partida começa às **22h** e termina às **2h**, ele calcula corretamente que durou **4 horas**.
+
+## 🚀 Como funciona?
+1. O usuário informa **o horário de início** e **o horário de término** (valores entre 0 e 23).
+2. O programa calcula a duração:
+   - Se a partida terminou no mesmo dia (`hf >= hi`), basta subtrair `hf - hi`.
+   - Se a partida passou da meia-noite, a fórmula usada é `24 - hi + hf`.
+3. O programa exibe a duração em **horas**.
+
+## 💻 Exemplo de Saída:
+### **Caso 1 - Partida no mesmo dia**
+Digite a hora de início da partida (0-23): 14 Digite a hora de término da partida (0-23): 18 A partida durou 4 horas.
